@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ES">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="DISEÑO.css">
+</head>
+<body>
+   
+<script defer src="./ahorcado.js"></script>
+    
+
+    <section class="pagina-principal">
+        <div class="button">
+            <p class="titulo color-titulo">AHORCADO</p>
+            <a href="#comenzarjuego" target="blank" class="button-jugar sub-titulo color-texto-blanco">Jugar aquí</a>
+            <a href="#instruccionesjuego" target="blank" class="button-jugar sub-titulo color-texto-blanco">Instrucciones</a>
+        </div>
+    </section>  
+    
+    <section id="comenzarjuego" class="iniciarjuego">
+
+        <div class="paginadejuego">
+         <p class="margin-none sub-titulo titulo color-texto-blanco">Adivina la palabra</p>
+         <p>Introduzca una Letra</p>
+         <input id="input-letra" type="text"> 
+         <button id="evaluarletra">Evaluar</button>
+        </div>
+
+        <div class="paginadejuego-imagen">
+
+            <img id="ahorcadoImagen" src="./palito.png" alt="">
+
+        </div>
+    </section>
+
+    <section id="instruccionesjuego" class="caja-instrucciones">
+
+        <div>
+            <p class="titulo">Instrucciones</p>
+            <img src="avatar.png" alt="">
+        </div>
+
+        <div class="tablon">
+            <p class="sub-titulo">Ingresa una letra y descifrar la palabra, tendras 6 intentos para acertar y ganar.
+                 Ayuda a nuestro amigo a seguir resguardando nuestros bosques.</p>
+
+            <img src="/tablon.png" alt="">
+        </div>
+
+    </section>
+
+    
+</body>
+</html>
